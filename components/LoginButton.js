@@ -9,7 +9,7 @@ export default function LoginButton() {
     <div>
       {session ? (
         <div>
-          <p>Welcome, {session.user.name}</p>
+          <p>Welcome prod, {session.user.name}</p>
           <img src={session.user.image} alt="Profile" width={50} />
           <button onClick={() => signOut()}>Sign out</button>
         </div>
